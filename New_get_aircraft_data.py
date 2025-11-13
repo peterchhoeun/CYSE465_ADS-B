@@ -4,7 +4,12 @@ import json
 from datetime import datetime
 from collections import defaultdict
 
-DATA_URL = "http://localhost:8080/data/aircraft.json"
+#this first DATA_URL is used for when testing with the spoofer
+DATA_URL = "http://127.0.0.1:8081/data/aircraft.json"
+
+#this second one is used for when we want to actually use it with real planes like with our dump1090 demo lab
+#DATA_URL = "http://localhost:8080/data/aircraft.json"
+
 POLL_SEC = 2.5
 
 # Baseline learning
