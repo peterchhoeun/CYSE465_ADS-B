@@ -1,4 +1,9 @@
-The point of this project is to create an ADS-B validator system, flood defense, and replay attack defense. You will see all the necessary files needed to run each attack in this repo.
+Objective: The point of this project is to create an ADS-B validator system, flood defense, and replay attack defense. You will see all the necessary files needed to run each attack in this repo.
+
+collections/libraries used: argparse, json, time, random, sys, math, datatime, timezone, sys, collections.defaultdict
+
+
+step-by-step on how to run the program:
 
 terminal 1:
 cd dump1090
